@@ -1,7 +1,7 @@
 services:
   db:
     image: pgvector/pgvector:pg16
-    container_name: knowledge_db
+    container_name: knowledge-postgres
     environment:
       POSTGRES_USER: knowledge
       POSTGRES_PASSWORD: knowledge
